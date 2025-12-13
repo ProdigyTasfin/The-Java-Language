@@ -7,7 +7,7 @@ os.makedirs("questions", exist_ok=True)
 BANK_FILE = "questions_bank.json"
 PROGRESS_FILE = "progress.json"
 OUTPUT_DIR = "questions"
-NUM_QA = 5
+NUM_QA = 3
 
 TOPIC_BY_DAY = {
     0: "basics",
