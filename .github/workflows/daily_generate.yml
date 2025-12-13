@@ -1,54 +1,38 @@
-name: Daily Java Q&A Generator
+name: Daily Java Code Problems (No AI)
 
 on:
   schedule:
-    # runs at 07:00 UTC daily (edit cron if you want another time)
+    # Runs every day at 7:00 AM UTC
     - cron: "0 7 * * *"
   workflow_dispatch: {}
 
 jobs:
   generate:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
-      - name: Generate Q&A
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          NUM_QA: "5"
-          OUTPUT_DIR: "questions"
-          # Optionally set OPENAI_MODEL to override the default (e.g., gpt-3.5-turbo)
-          # OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
+      - name: Run generator script
         run: |
           python generator.py
 
       - name: Commit and push generated files
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # Stage only the questions folder (if you prefer other files, adjust)
-          git add questions || true
-          if ! git diff --cached --quiet; then
-            DATE=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
-            git commit -m "chore: add Java Q&A ($DATE)"
-            git push
-            echo "Committed and pushed new Q&A."
+
+          git add questions progress.json
+
+          if git diff --cached --quiet; then
+            echo "No new questions today."
           else
-            echo "No changes to commit."
+            git commit -m "Daily Java problems"
+            git push
           fi
