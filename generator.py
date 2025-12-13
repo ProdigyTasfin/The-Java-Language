@@ -1,6 +1,8 @@
 import json
 import os
 import datetime
+os.makedirs("questions", exist_ok=True)
+
 
 BANK_FILE = "questions_bank.json"
 PROGRESS_FILE = "progress.json"
