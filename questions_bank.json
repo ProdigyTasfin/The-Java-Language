@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "type": "code",
+      "topic": "basics",
+      "difficulty": "easy",
+      "question": "Write a Java program to check if a number is even or odd.",
+      "starter_code": "class Main {\n    public static void main(String[] args) {\n        int n = 10;\n        // your code here\n    }\n}",
+      "solution": "if (n % 2 == 0) System.out.println(\"Even\"); else System.out.println(\"Odd\");",
+      "explanation": "An even number is divisible by 2 without remainder."
+    },
+    {
+      "id": 2,
+      "type": "code",
+      "topic": "loops",
+      "difficulty": "easy",
+      "question": "Write a Java program to print numbers from 1 to 10 using a loop.",
+      "starter_code": "for(int i = 1; i <= 10; i++) {\n    // print i\n}",
+      "solution": "System.out.println(i);",
+      "explanation": "A for loop repeats a block of code."
+    },
+    {
+      "id": 3,
+      "type": "code",
+      "topic": "oop",
+      "difficulty": "medium",
+      "question": "Create a class Student with name and id, and print details.",
+      "starter_code": "class Student {\n    String name;\n    int id;\n}\n",
+      "solution": "Student s = new Student(); s.name=\"Alex\"; s.id=1;",
+      "explanation": "Classes group data and behavior."
+    }
+  ]
+}
