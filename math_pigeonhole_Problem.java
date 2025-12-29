@@ -4,7 +4,7 @@
 
 import java.util.Scanner;
 
-public class pigeonhole_Problem {
+public class math_pigeonhole_Problem {
 
     public static void main(String[] args){
     
