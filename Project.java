@@ -1,6 +1,8 @@
 // Difficulty: Medium/Easy-Peasy 
 
 // Task: A random number will generate, user guess the number, how many guess and show point 
+// left (start from 100 and minus 5 for each wrong guess)
+// until user get the correct number.
 
 import java.util.Scanner;
 import java.util.Random;
