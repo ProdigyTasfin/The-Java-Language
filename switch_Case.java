@@ -5,7 +5,8 @@ public class switch_Case {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        String day = input.next().toLowerCase();   // Convert input to lowercase
+        String day = input.next().toLowerCase();  // Convert input to lowercase
+        // Switch case to check the day
 
         switch(day){
             case "sunday":
