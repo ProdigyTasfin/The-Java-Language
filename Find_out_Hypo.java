@@ -13,4 +13,5 @@ import java.util.Scanner;
             y = input.nextDouble();
             z = (float) Math.sqrt(Math.pow(x,2) + Math.pow(y,2));
             System.out.print("Your Hypotenous " + z + " cm");
-            }}
+            }
+    }
