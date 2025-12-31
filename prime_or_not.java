@@ -8,8 +8,7 @@ public class prime_or_not {
         int number = input.nextInt();
 
         if (number <= 1) {
-            System.out.println(number + " is neither prime nor composite."); // Handle numbers less than or equal to 1
-            return;
+            System.out.println(number + " is neither prime nor composite."); 
         }
 
         boolean isPrime = true;
