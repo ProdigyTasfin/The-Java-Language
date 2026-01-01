@@ -5,7 +5,7 @@ public class palindrome_or_not {
         System.out.print("Enter a string: ");
         String original = scanner.nextLine();
         String reversed = new StringBuilder(original).reverse().toString(); //explanation: This line creates a new StringBuilder object initialized with the original string, reverses it using the reverse() method, and then converts it back to a String using toString().
-        if (original.equals(reversed)) { //explanation: This line checks if the original string is equal to the reversed string using the equals() method, which compares the content of the strings.
+        if (original.equals(reversed)) { // explanation: This line checks if the original string is equal to the reversed string using the equals() method, which compares the content of the strings.
             System.out.println(original + " is a palindrome.");
         } else {
             System.out.println(original + " is not a palindrome.");
