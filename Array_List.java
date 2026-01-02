@@ -4,6 +4,7 @@ public class Array_List {
         fruits.add("Apple");
         fruits.add("Banana");
         fruits.add("Cherry");
+        food.set(1, "Mango"); // Update Banana to Mango
         System.out.println("Fruits in the list:");
         for(int i = 0; i < fruits.size(); i++){
             System.out.println(fruits.get(i)); // Display each fruit
