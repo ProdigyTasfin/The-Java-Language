@@ -8,13 +8,13 @@ public class strings_Method {
         boolean containsA = name.contains("a");
         boolean result = name.equals("Tasfin");
 
-        System.out.println("Original String: " + name);
-        System.out.println("Length of String: " + length);
-        System.out.println("Uppercase String: " + upper);
-        System.out.println("Substring (0 to 2): " + subStr);
-        System.out.println("Is String Empty: " + isEmpty);
-        System.out.println("Contains 'a': " + containsA);
-        System.out.println("Equals 'Tasfin': " + result);
+        System.out.println("Original String: " + name); // Display original string
+        System.out.println("Length of String: " + length); // Display length
+        System.out.println("Uppercase String: " + upper); // Display uppercase
+        System.out.println("Substring (0 to 2): " + subStr); // Display substring
+        System.out.println("Is String Empty: " + isEmpty); // Display if empty
+        System.out.println("Contains 'a': " + containsA); // Display containment check
+        System.out.println("Equals 'Tasfin': " + result); // Display equality check
 
     }
 }
