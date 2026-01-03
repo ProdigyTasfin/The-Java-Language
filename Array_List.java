@@ -8,7 +8,7 @@ public class Array_List {
         fruits.remove(0); // Remove Apple
         System.out.println("Fruits in the list:");
         for(int i = 0; i < fruits.size(); i++){
-            System.out.println(fruits.get(i)); // Display each fruit
+            System.out.println(fruits.get(i)); // Print each fruit
             
         }
     }
