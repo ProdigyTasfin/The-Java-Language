@@ -17,6 +17,6 @@ public class class_super {
     }
     public static void main(String[] args) {
         class_super object = new class_super();
-        object.animals();
+        object.animals(); // Call the method to print animals
     }
 }
