@@ -38,7 +38,7 @@ class Student extends Person {
 public class class_sub_VS_sup {
     public static void main(String[] args) {
 
-        Student s1 = new Student("Tasfin", 21, 13);
+        Student s1 = new Student("Tasfin", 21, 13); // creating an object of Student
         s1.displayStudentInfo();
     }
 }
