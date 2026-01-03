@@ -6,6 +6,7 @@ public class Array_List {
         fruits.add("Apple");
         fruits.add("Banana");
         fruits.add("Cherry");
+        fruits.get(0); // Access Apple
         
         fruits.set(1, "Mango"); // Update Banana to Mango
         fruits.remove(0); // Remove Apple
