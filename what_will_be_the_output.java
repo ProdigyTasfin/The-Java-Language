@@ -20,8 +20,8 @@ public class what_will_be_the_output {
         // int s3 = s1 + s2; This will work fine
         
         // This line will cause a compilation error
-        
+
         // Solve: short s3 = (short)(s1 + s2);
-        // Output: 30
+        // Output: 30 
     }
 }
