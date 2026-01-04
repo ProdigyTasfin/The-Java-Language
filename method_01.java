@@ -1,7 +1,6 @@
-public class method_01 {
-    public static void main(String[] args) {
-        greet();
-        greet();
+ class method_01 {
+    
+    static void main(String[] args) {
         greet();
     }
 
