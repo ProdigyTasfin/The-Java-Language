@@ -4,7 +4,7 @@ public class method_03 {
 
         int x = 12;
         int y = 21;
-        int result = sum(x, y); 
+        int result = sum(x, y); // calling the sum method
         System.out.print("Result: " + result);  // Output: Result: 33
     }
 
