@@ -1,7 +1,7 @@
 import java.util.*; // Importing the entire java.util package
 
 public class Array_List_2D {
-    
+
     public static void main(String[] args) {
 
         ArrayList<ArrayList<String>> groceryList = new ArrayList(); // 2D ArrayList
