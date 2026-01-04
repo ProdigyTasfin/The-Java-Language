@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+
 public class LOOP_for_each {
 
     public static void main(String[] args) {
