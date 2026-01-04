@@ -1,4 +1,4 @@
-import java.util.*; // Importing the entire java.util package
+import java.util.ArrayList; // Importing the entire java.util package
 
 public class Array_List_2D {
 
