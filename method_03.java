@@ -7,8 +7,8 @@ public class method_03 {
         int result = sum(x, y); 
         System.out.print("Result: " + result);  
     }
-    
+
     static int sum(int x, int y){
-        return x + y;
+        return x + y; // return the sum of x and y
     }
 }
