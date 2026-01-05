@@ -11,8 +11,8 @@ public class OOP_constructors {
         
         System.out.println(); 
 
-        Human1.eat();
-        Human2.drink();
+        Human2.eat();
+        Human1.drink();
     }
 }
 
