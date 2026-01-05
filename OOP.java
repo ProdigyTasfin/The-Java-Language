@@ -1,35 +1,30 @@
 public class OOP {
+
     public static void main(String[] args) {
-    
-    Car myCar = new Car();
-    
-    System.out.println(myCar.model);
-    System.out.println(myCar.color); 
-    System.out.println(myCar.price);
 
-    myCar.drive();
+        Car myCar = new Car();
 
-    myCar.auto_poilot();
+        System.out.println(myCar.model);
+        System.out.println(myCar.color);
+        System.out.println(myCar.price);
 
-
-}
+        // myCar.drive();
+        myCar.auto_pilot();
+    }
 }
 
-public class Car{
+class Car {
 
-    public static void main(String[] args){
     String model = "Tesla";
     String color = "Blue";
     double price = 50000;
     int year = 2026;
-    boolean white = true;
 
-    void auto_poilot(){
-        System.out.println("Turn on! The AUTO-POILOT MODE!");
+    void auto_pilot() {
+        System.out.println("Turn on! The AUTO-PILOT MODE!");
     }
 
-    void drive(){
-        System.out.println("Turn off! The AUTO-POILOT MODE! You can drive it!");
+    void drive() {
+        System.out.println("\nTurn off! The AUTO-PILOT MODE! You can drive it!");
     }
-}
 }
