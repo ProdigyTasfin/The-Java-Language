@@ -4,9 +4,12 @@ public class OOP {
 
         Car myCar = new Car();
 
-        System.out.println(myCar.model);
-        System.out.println(myCar.color);
-        System.out.println(myCar.price);
+        System.out.println("The car's model is: " + myCar.model);
+        System.out.println("The car's color is: " + myCar.color);
+        System.out.println("The car's price is: " + myCar.price);
+        System.out.println("The car's year is: " + myCar.year);
+        
+        System.out.println(); 
 
         // myCar.drive();
         myCar.auto_pilot();
@@ -21,10 +24,10 @@ class Car {
     int year = 2026;
 
     void auto_pilot() {
-        System.out.println("Turn on! The AUTO-PILOT MODE!");
+        System.out.println(" The car is now in AUTO-PILOT MODE! ");
     }
 
     void drive() {
-        System.out.println("\nTurn off! The AUTO-PILOT MODE! You can drive it!");
+        System.out.println(" The car is now driving! "); 
     }
 }
