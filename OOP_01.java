@@ -25,7 +25,7 @@ public class OOP_01 {
 
  class DiceRoller {
 
-    Random random;
+    Random random; //global but inside into the class
     int number;
 
     DiceRoller(){
