@@ -1,5 +1,8 @@
+//to string another example
+
 public class OOP_03_01 {
-    public static void (String[] args){
+    public static void main (String[] args){
+
         Myself bio = new Myself();
 
         System.out.println(bio.toString());
@@ -8,7 +11,6 @@ public class OOP_03_01 {
 }
 
 class Myself{
-
     String Name = "Tasfin";
     int age = 22;
     double weight = 67.6;
