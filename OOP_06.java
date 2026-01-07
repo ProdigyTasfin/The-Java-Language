@@ -13,7 +13,7 @@ public class OOP_06 {
     class Friend{
 
         String name;
-        static numberOfFriends;
+        static int numberOfFriends;
 
         Friend(String name){
             this.name = name;
