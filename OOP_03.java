@@ -25,7 +25,7 @@ class Car {
     public String toString(){
         // 1st method: 
 
-        // String myString = make + "\n" + model + "\n" + color + "\n" + year;
+        // String myString = "Make: " + make + "\n"+ "Model: " + model + "\n" + "Color: "+ color + "\n" + "Year: "+ year;
         // return myString;
 
         // 2nd method: 
