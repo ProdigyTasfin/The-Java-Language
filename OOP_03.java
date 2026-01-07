@@ -12,7 +12,8 @@ public class OOP_03 {
         // System.out.println(car.color);
         // System.out.println(car.year);
 
-        System.out.println(car.toString());
+        // System.out.println(car.toString()); // explicit call to toString() method
+        System.out.println(car); // implicit call to toString() method
          
     }
 
