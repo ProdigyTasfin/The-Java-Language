@@ -17,7 +17,7 @@ class Myself{
     String hobby = "Writing";
 
     public String toString(){
-        String myString = "Name: " + Name + "\n"+ "Age: " + age + "\n" + "Weight: "+ weight + "\n" + "Hobby: "+ hobby;
+        String myString = "Name: " + Name + "\n"+ "Age: " + age + "years" + "\n" + "Weight: "+ weight + "KG" +"\n" + "Hobby: "+ hobby;
         return myString;
     }
 
