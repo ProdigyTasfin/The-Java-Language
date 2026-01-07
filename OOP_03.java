@@ -20,15 +20,17 @@ class Car {
     String model = "Mustang";
     String make = "Ford";
     int year = 2024;
-    String color = "yellow";
+    String color = "Yellow";
 
     public String toString(){
-        //1st method:
+        // 1st method: 
+
         // String myString = make + "\n" + model + "\n" + color + "\n" + year;
         // return myString;
 
-        // //2nd method: 
-        return make + "\n" + model + "\n" + color + "\n" + year;
+        // 2nd method: 
+
+        return "Make: " + make + "\n"+ "Model: " + model + "\n" + "Color: "+ color + "\n" + "Year: "+ year;
     }
 
 
