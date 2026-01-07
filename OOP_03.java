@@ -1,4 +1,6 @@
-//toString 
+//toString = special method that all objects inherit,
+// that returns a string that textually represents an objecct.
+// can be used both implicitly and explicitly. 
 
 public class OOP_03 {
     public static void main(String[] args){
