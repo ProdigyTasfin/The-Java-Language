@@ -5,7 +5,7 @@ public class OOP_03_01 {
 
         Myself bio = new Myself();
 
-        System.out.println(bio.toString());
+        System.out.println(bio);
 
     }
 }
