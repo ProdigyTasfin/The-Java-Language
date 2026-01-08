@@ -2,12 +2,15 @@
 // Super keyword = keyword refers to the superclass (parent) of an object very similar similar to the 
 // "this" keyword
 
+import java.security.PublicKey;
+
 public class OOP_09 {
 
     public static void main(String[] args) {
 
         Hero hero1 = new Hero("Batman", 26, "He has a bat mobile");
         Hero hero2 = new Hero("Thor", 36, "Lightning");
+        Hero hero3 = new Hero("Superman", 21, "Leaser beam");
 
         System.out.println("The Hero is: ");
         System.out.println(hero1.name);
@@ -16,6 +19,8 @@ public class OOP_09 {
 
         System.out.println("The Hero is: " + "\n" + "Name: " + hero2.name + "\n" + "Age: " + hero2.age + "\n"
                 + "Power: " + hero2.power + "\n");
+
+        System.out.println(hero3.toString());
     }
 }
 
@@ -29,6 +34,11 @@ class Person {
         this.name = name;
         this.age = age;
     }
+
+    public String toString() {
+        return "Hero's name: " + this.name +"\n"+ "Hero's Age: " + this.age+"\n"; 
+    }
+
 }
 
 class Hero extends Person {
@@ -40,5 +50,9 @@ class Hero extends Person {
         super(name, age);
         this.power = power;
 
+    }
+
+    Public String toString() {
+        return super.toString()+ "Hero's Power: " + this.power +"\n";
     }
 }
