@@ -52,7 +52,7 @@ class Hero extends Person {
 
     }
 
-    Public String toString() {
-        return super.toString()+ "Hero's Power: " + this.power +"\n";
+    public String toString(){
+        return super.toString()+ "Hero's Power: " + this.power + "\n"; 
     }
 }
