@@ -16,14 +16,14 @@ public class OOP_08 {
 
 class Animal{
 
-    void sound{
-        System.out.println("The animal sound is meow mewo");
+    void sound() {
+        System.out.println("The animal sound is meow meow");
     }
 }
 
 class Dog extends Animal{
     
-    void sound{
-        System.out.println("The dog barking");
+    void sound() {
+        System.out.println("The dog is barking");
     }
 }
