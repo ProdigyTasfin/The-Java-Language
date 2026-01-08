@@ -33,8 +33,7 @@ class Hero extends Person{
 
     Hero (String name, int age, String power) {
 
-        this.name = name;
-        this.age = age;
+        super(name, age);
         this.power = power;
 
     }
