@@ -11,6 +11,7 @@ public class OOP_08 {
         Dog dog = new Dog();
 
         dog.sound(); // Here sound is over riding
+        System.out.println();
         dog.eat(); // Here inheritance works
     }
 }
