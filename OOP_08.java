@@ -11,6 +11,7 @@ public class OOP_08 {
         Dog dog = new Dog();
 
         dog.sound();
+        dog.eat();
     }
 }
 
@@ -18,6 +19,9 @@ class Animal{
 
     void sound() {
         System.out.println("The animal sound is meow meow");
+    }
+    void eat() {
+        System.out.println("Animals are eating");
     }
 }
 
