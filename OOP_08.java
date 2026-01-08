@@ -10,8 +10,8 @@ public class OOP_08 {
 
         Dog dog = new Dog();
 
-        dog.sound();
-        dog.eat();
+        dog.sound(); // Here sound is over riding
+        dog.eat(); // Here inheritance works
     }
 }
 
