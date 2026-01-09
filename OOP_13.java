@@ -19,3 +19,54 @@
 public class OOP_13 { 
     public static void main(String[] args) {
         
+        Car car = new Car("Tesla", "Model S", 2021);
+
+        car.setYear(2022); // updating year using setter method
+        
+        System.out.println("Car Make: " + car.getMake());
+        System.out.println("Car Model: " + car.getModel());
+        System.out.println("Car Year: " + car.getYear());
+
+    }
+}
+
+
+
+    public class Car{
+
+        // private variables
+        private String make;
+        private String model;
+        private int year;
+
+        Car(String make, String model, int year){
+            this.setMake(make);
+            this.setModel(model);
+            this.setYear(year);
+        }
+        // public getter methods
+        public String getMake(){
+            return make;
+        }
+
+        public String getModel(){
+            return model;
+        }
+
+        public int getYear(){
+            return year;
+        }
+
+        public void setMake(String make){
+            this.make = make;
+        }
+
+        public void setModel(String model){
+            this.model = model;
+        }
+
+        public void setYear(int year){
+            this.year = year;
+        }
+
+    }
