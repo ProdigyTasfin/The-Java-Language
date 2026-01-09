@@ -21,6 +21,12 @@ public class OOP_13 {
         
         Car car = new Car("Tesla", "Model S", 2021);
 
+        System.out.println("Car Make: " + car.getMake());
+        System.out.println("Car Model: " + car.getModel());
+        System.out.println("Car Year: " + car.getYear());
+
+        System.out.print("\n" + "Updating car year...");
+
         car.setYear(2022); // updating year using setter method
 
         System.out.println("Car Make: " + car.getMake());
