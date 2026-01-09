@@ -22,7 +22,7 @@ public class OOP_13 {
         Car car = new Car("Tesla", "Model S", 2021);
 
         car.setYear(2022); // updating year using setter method
-        
+
         System.out.println("Car Make: " + car.getMake());
         System.out.println("Car Model: " + car.getModel());
         System.out.println("Car Year: " + car.getYear());
@@ -32,7 +32,7 @@ public class OOP_13 {
 
 
 
-    public class Car{
+    class Car{
 
         // private variables
         private String make;
