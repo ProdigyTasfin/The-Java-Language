@@ -25,7 +25,7 @@ public class OOP_13 {
         System.out.println("Car Model: " + car.getModel());
         System.out.println("Car Year: " + car.getYear());
 
-        System.out.print("\n" + "Updating car year..."+ "\n");
+        System.out.print("\n" + "Updating car year..."+ "\n\n");
 
         car.setYear(2022); // updating year using setter method
 
