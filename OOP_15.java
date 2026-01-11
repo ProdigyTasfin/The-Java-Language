@@ -8,6 +8,8 @@ public class OOP_15{
 
         Fish fish = new Fish();
         Rabbit rabbit = new Rabbit();
+
+        System.out.println(Rabbit);
     }
 }
 
