@@ -8,17 +8,23 @@ public class OOP_15{
 
         Fish fish = new Fish();
         Rabbit rabbit = new Rabbit();
+        Hawk hawk = new Hawk();
 
         rabbit.flee();
+        hawk.hunt();
+
     }
 }
 
 interface Prey {
 
     void flee();
+
 }
 
 interface Predator {
+
+    void hunt();
 
 }
 
@@ -34,4 +40,11 @@ class Rabbit implements Prey{
         System.out.println("This rabbit is fleeing");
     }
 
+}
+
+class Hawk implements Predator{
+
+    public void hunt(){
+        System.out.println("This hawk is hunting");
+    }
 }
