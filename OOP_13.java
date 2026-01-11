@@ -36,8 +36,6 @@ public class OOP_13 {
     }
 }
 
-
-
     class Car{
 
         // private variables
