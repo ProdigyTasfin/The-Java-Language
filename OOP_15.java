@@ -12,6 +12,8 @@ public class OOP_15{
 
         rabbit.flee();
         hawk.hunt();
+        fish.flee();
+        fish.hunt();
 
     }
 }
@@ -28,8 +30,14 @@ interface Predator {
 
 }
 
-class Fish {
+class Fish implements Prey,Predator {
 
+    public void flee(){
+        System.out.println("This fish is fleeing");
+    }
+    public void hunt(){
+        System.out.println("This fish is hunting");
+    }
 }
 
 class Rabbit implements Prey{
