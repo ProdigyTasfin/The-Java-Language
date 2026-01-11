@@ -11,6 +11,10 @@ public class OOP_16{
 
         Vehicle[] racers = {car,bicycle,boat}; 
 
+        car.go();
+        bicycle.go();
+        boat.go();
+
     }
 }
 
