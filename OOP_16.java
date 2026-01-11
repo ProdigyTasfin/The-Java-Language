@@ -38,16 +38,16 @@ class Car extends Vehicle {
     @Override
 
     public void go() {
-        System.out.println("The car brgins moving");
+        System.out.println("The car begins moving");
     }
 }
 
 class Bicycle extends Vehicle {
 
      @Override
-     
+
      public void go() {
-        System.out.println("The bicycle brgins moving");
+        System.out.println("The bicycle begins moving");
     }
 }
 
@@ -56,6 +56,6 @@ class Boat extends Vehicle {
      @Override
 
      public void go() {
-        System.out.println("The boat brgins moving");
+        System.out.println("The boat begins moving");
     }
 }
