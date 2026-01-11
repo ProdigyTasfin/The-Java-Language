@@ -6,7 +6,7 @@ public class OOP_16{
     public static void main(String[] args){
 
         Car car = new Car();
-        Bicycle bicycle = new Bicycle();
+        Bicycle bicycle = new Bicycle(); 
         Boat boat = new Boat();
 
         Vehicle[] racers = {car,bicycle,boat}; 
@@ -23,19 +23,19 @@ class Vehicle {
 class Car extends Vehicle {
 
     public void go() {
-        system.out.println("The car brgins moving");
+        System.out.println("The car brgins moving");
     }
 }
 
 class Bicycle extends Vehicle {
      public void go() {
-        system.out.println("The bicycle brgins moving");
+        System.out.println("The bicycle brgins moving");
     }
 }
 
 class Boat extends Vehicle {
-    
+
      public void go() {
-        system.out.println("The boat brgins moving");
+        System.out.println("The boat brgins moving");
     }
 }
