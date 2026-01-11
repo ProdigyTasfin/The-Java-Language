@@ -6,7 +6,8 @@ public class OOP_15{
 
     public static void main(String[] args){
 
-        Fish fish = new fish();
+        Fish fish = new Fish();
+        Rabbit rabbit = new Rabbit();
     }
 }
 
@@ -19,7 +20,7 @@ interface Predator {
 
 }
 
-class Fish{
+class Fish {
 
 }
 
