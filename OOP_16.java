@@ -11,20 +11,31 @@ public class OOP_16{
 
         Vehicle[] racers = {car,bicycle,boat}; 
 
+        // Method: 1
         car.go();
         bicycle.go();
         boat.go();
+
+        System.out.println("\n\n");
+        // Method: 2
+        for (Vehicle x :racers){
+            x.go();
+        }
 
     }
 }
 
 class Vehicle { 
 
+    public void go(){
 
+    }
 
 }
 
 class Car extends Vehicle {
+
+    @Override
 
     public void go() {
         System.out.println("The car brgins moving");
@@ -32,12 +43,17 @@ class Car extends Vehicle {
 }
 
 class Bicycle extends Vehicle {
+
+     @Override
+     
      public void go() {
         System.out.println("The bicycle brgins moving");
     }
 }
 
 class Boat extends Vehicle {
+
+     @Override
 
      public void go() {
         System.out.println("The boat brgins moving");
