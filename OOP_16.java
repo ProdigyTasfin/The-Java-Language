@@ -8,6 +8,18 @@ public class OOP_16{
     }
 }
 
-class vehicle { 
+class Vehicle { 
 
+}
+
+class Car extends Vehicle {
+
+}
+
+class Bicycle extends Vehicle {
+    
+}
+
+class Boat extends Vehicle {
+    
 }
