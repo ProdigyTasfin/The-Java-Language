@@ -6,9 +6,12 @@ public class OOP_14 {
     public static void main (String[] args) { 
 
         Car car1 = new Car("Tesla", "Model-s", 2024);
-        Car car2 = new Car("Ford", "Mustang", 2021);
+        //Car car2 = new Car("Ford", "Mustang", 2021);
 
-        car2.copy(car1);
+        //car2.copy(car1); 
+
+        Car car2 = new Car(car1);
+
 
         System.out.println(car1);
         System.out.println(car2);
@@ -39,6 +42,9 @@ class Car{
         this.setModel(model);
         this.setYear(year);
 
+    }
+    Car(Car x){
+        this.copy(x);
     }
 
     public String getMake() {
