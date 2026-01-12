@@ -2,7 +2,7 @@
 //                      distrups the normal flow of instructions. 
 
 import java.util.Scanner;
-
+import java.util.InputMismatchException; 
 public class Exception {
 
     public static void main(String[] args) {
@@ -20,7 +20,7 @@ public class Exception {
             System.out.println("Result (x/y): " + z);
         } catch (ArithmeticException e) {
             System.out.println("You can't divide by ZERO");
-        } catch (InputMismatchException a) {
+        } catch (InputMismatchException e) {
             System.out.println("Please Enter a Number");
 
         }
