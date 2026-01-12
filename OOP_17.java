@@ -21,9 +21,12 @@ public class OOP_17 {
             animal = new Cat();
         }
 
-        else animal = new Animal();
-
+        else { animal = new Animal();
+        }
+        
         Animal animal;
+        animal.speak();
+
 
     }
 
