@@ -9,7 +9,19 @@ public class OOP_17 {
         
         Scanner input = new Scanner(System.in);
         
-        System.out.println("What animal you want to choose?");
+        System.out.println("What animal you want to choose? Dog / Cat");
+        String choice = input.next();
+        choice = choice.toUpperCase();
+
+        if (choice  == "DOG") {
+            animal = new Dog();
+        }
+
+        else if (choice == "CAT") {
+            animal = new Cat();
+        }
+
+        else animal = new animal();
 
         Animal animal;
 
