@@ -9,10 +9,10 @@ public class OOP_18 {
         
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter x: ");
+        System.out.print("Enter x: ");
         int x = input.nextInt();
 
-        System.out.println("Enter y: ");
+        System.out.print("Enter y: ");
         int y = input.nextInt();
 
         int z = x/y;
