@@ -3,10 +3,13 @@ import java.util.Scanner;
 // Dynamic Polymorphism 
 public class OOP_17 { 
 
-    Scanner input = new Scanner(System.in);
     
-
+    
     public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("What animal you want to choose?");
 
         Animal animal;
 
