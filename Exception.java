@@ -5,24 +5,24 @@ import java.util.Scanner;
 
 public class Exception {
 
-    public static void main (String[] args){
-    
-    try{
-        Scanner input = new Scanner(System.in);
+    public static void main(String[] args) {
 
-        System.out.print("Enter x: ");
-        int x = input.nextInt();
+        try {
+            Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter y: ");
-        int y = input.nextInt();
+            System.out.print("Enter x: ");
+            int x = input.nextInt();
 
-        int z = x/y;
-        System.out.println("Result (x/y): " + z);
+            System.out.print("Enter y: ");
+            int y = input.nextInt();
+
+            int z = x / y;
+            System.out.println("Result (x/y): " + z);
+        } catch (ArithmeticException e) {
+            System.out.println("You can't divide by ZERO");
+        } catch (InputMismatchException a) {
+            System.out.println("Please Enter a Number");
+
+        }
+
     }
-    catch(ArithmeticException e){
-        System.out.println("You can't divide by ZERO");
-    }
-
-
-    }
-}
