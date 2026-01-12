@@ -13,11 +13,11 @@ public class OOP_17 {
         String choice = input.next();
         choice = choice.toUpperCase();
 
-        if (choice  == "DOG") {
+        if (choice.equals("DOG")) {
             animal = new Dog();
         }
 
-        else if (choice == "CAT") {
+        else if (choice.equals("CAT")) {
             animal = new Cat();
         }
 
@@ -43,7 +43,7 @@ class Dog extends Animal {
     @Override
 
     public void speak() {
-        System.out.println("Cat is mewoing");
+        System.out.println("Dog is mewoing");
     }
 
 }
@@ -54,7 +54,7 @@ class Cat extends Animal {
 
     public void speak() {
 
-        System.out.println("Dog is barking");
+        System.out.println("Cat is barking");
 
     }
 }
