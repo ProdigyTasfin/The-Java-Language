@@ -21,7 +21,7 @@ public class OOP_17 {
             animal = new Cat();
         }
 
-        else animal = new animal();
+        else animal = new Animal();
 
         Animal animal;
 
