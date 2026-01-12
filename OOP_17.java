@@ -26,6 +26,7 @@ public class OOP_17 {
         }
         
         animal.speak();
+        input.close
 
 
     }
