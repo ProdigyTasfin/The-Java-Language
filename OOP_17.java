@@ -7,6 +7,7 @@ public class OOP_17 {
     
     public static void main(String[] args) {
         
+        Animal animal;
         Scanner input = new Scanner(System.in);
         
         System.out.println("What animal you want to choose? Dog / Cat");
@@ -24,7 +25,6 @@ public class OOP_17 {
         else { animal = new Animal();
         }
         
-        Animal animal;
         animal.speak();
 
 
@@ -46,7 +46,7 @@ class Dog extends Animal {
     @Override
 
     public void speak() {
-        System.out.println("Dog is mewoing");
+        System.out.println("Dog is barking");
     }
 
 }
@@ -57,7 +57,7 @@ class Cat extends Animal {
 
     public void speak() {
 
-        System.out.println("Cat is barking");
+        System.out.println("Cat is meowing");
 
     }
 }
