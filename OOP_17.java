@@ -21,6 +21,8 @@ class Animal {
 
 class Dog extends Animal {
 
+    @Override
+
     public void speak() {
         System.out.println("Cat is mewoing");
     }
@@ -28,6 +30,8 @@ class Dog extends Animal {
 }
 
 class Cat extends Animal {
+
+    @Override
 
     public void speak() {
 
