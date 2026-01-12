@@ -16,7 +16,7 @@ public class OOP_17 {
 
     class Dog extends Animal {
         public void speak(){
-            system.out.println("Cat is mewoing");
+            System.out.println("Cat is mewoing");
         }
 
     }
