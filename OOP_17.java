@@ -23,4 +23,6 @@ public class OOP_17 {
 
      class Cat extends Animal {
 
+        System.out.println("Dog is barking");
+
     }
