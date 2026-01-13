@@ -3,12 +3,14 @@
 
 import java.util.Scanner;
 import java.util.InputMismatchException; 
-public class Exception {
+import java.util.Exception;
+
+public class Exception_Handling {
 
     public static void main(String[] args) {
-
+        
+        Scanner input = new Scanner(System.in);
         try {
-            Scanner input = new Scanner(System.in);
 
             System.out.print("Enter x: ");
             int x = input.nextInt();
@@ -22,7 +24,13 @@ public class Exception {
             System.out.println("You can't divide by ZERO");
         } catch (InputMismatchException e) {
             System.out.println("Please Enter a Number");
+        }
+        catch (Exception e) {
+            System.out.println("Something went WRONG!!");
+        }
 
+        finally{
+            input.close();
         }
 
     }
