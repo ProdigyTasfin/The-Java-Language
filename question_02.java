@@ -42,7 +42,9 @@ public class question_02 {
             double area = (Math.sqrt(3)*Math.pow(a,2))/4;
             System.out.println("Parameter = " + parameter + "\n" +"Area = "+ area);
         }
-        else input.close();
+        else System.out.println("This is a perfect triangle");
+
+        input.close();
     }
 
 }
