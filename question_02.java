@@ -19,20 +19,20 @@ public class question_02 {
         Scanner input = new Scanner(System.in);
 
         //Input 
-        System.out.println("Enter your 1st side length: ");
+        System.out.print("Enter your 1st side length: ");
         a = input.nextInt();
-        System.out.println("Enter your 2nd side length: ");
+        System.out.print("Enter your 2nd side length: ");
         b = input.nextInt();
-        System.out.println("Enter your 3rd side length: ");
+        System.out.print("Enter your 3rd side length: ");
         c = input.nextInt();
 
         //Conditions 
 
-        if(a<0 && b<0 && c<0){
+        if(a<0 || b<0 || c<0){
             System.out.println("Side Lengths of Triangles Can't be Negative");
         }
 
-        else if(a+b <= c && b+c <= a && c+a <= b){
+        else if(a+b <= c || b+c <= a || c+a <= b){
             System.out.println("Not Possible Way of Creating A Triangle");
         }
 
@@ -40,7 +40,7 @@ public class question_02 {
             System.out.println("This is an equilateral triangle");
             int parameter = a + b + c;
             double area = (Math.sqrt(3)*Math.pow(a,2))/4;
-            System.out.println("Parameter =" + parameter + "Area: "+area);
+            System.out.println("Parameter = " + parameter + "\n" +"Area = "+ area);
         }
         else input.close();
     }
