@@ -36,7 +36,7 @@ public class question_02 {
             System.out.println("Not Possible Way of Creating A Triangle");
         }
 
-        else if (a==b==c) {
+        else if (a==b && b==c && a==c) {
             System.out.println("This is an equilateral triangle");
             int parameter = a + b + c;
             double area = (Math.sqrt(3)*Math.pow(a,2))/4;
